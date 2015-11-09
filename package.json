@@ -1,0 +1,37 @@
+{
+  "name": "angularjs-es6-system",
+  "version": "0.0.1",
+  "description": "ES6 Structure for angularjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EcuadorJS/angularjs-es6-system.git"
+  },
+  "keywords": [
+    "es6",
+    "angularjs",
+    "systemjs",
+    "jspm"
+  ],
+  "author": "byron7cueva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EcuadorJS/angularjs-es6-system/issues"
+  },
+  "homepage": "https://github.com/EcuadorJS/angularjs-es6-system#readme",
+  "jspm": {
+    "directories": {
+      "baseURL": "www",
+      "packages": "www/libs"
+    },
+    "configFile": "www/system.config.js",
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
